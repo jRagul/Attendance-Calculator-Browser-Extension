@@ -1,6 +1,7 @@
 # Attendance Helper Browser Extension
 
 A browser extension that scrapes attendance data from your institution's ERP (Educational Resource Planning) system and enhances it by adding a new column. This column calculates and displays the number of classes a student can miss or needs to attend to maintain the minimum attendance threshold of 75%.
+**This only works with Hindustan Institute of Technology and Science's ERP.Using it on any other ERP will not produce the expected results**
 
 ## Features
 
@@ -16,7 +17,7 @@ A browser extension that scrapes attendance data from your institution's ERP (Ed
 
   or 
 
-  ![Directly download the fiels as zip](https://prnt.sc/62HE8c4SqhBA)
+  [Directly download the fiels as zip](https://prnt.sc/62HE8c4SqhBA)
   **Extract to a folder**
 
 2.**Upload the extension to browser**
