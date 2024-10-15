@@ -21,7 +21,7 @@ A browser extension that scrapes attendance data from your institution's ERP (Ed
   **Extract to a folder**
 
 2.**Upload the extension to browser**
-- **Go to chrome://extensions**
+- [**Go to extensions page**](chrome://extensions)
 - ![**Turn on developer mode**](readmepics/dev.png)
   
 - ![**Click Load Unpacked and select the folder you extracted the files to.**](readmepics/loadExtension.png)
