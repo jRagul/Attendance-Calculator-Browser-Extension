@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .popupButton{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: rgb(33, 33, 33);
+            color:whitesmoke;
+            transition:0.2s;
+        }
+        .popupButton:active{
+            padding: 8px;
+            background-color: rgb(159, 159, 159);
+            color:black;
+        }
+    </style>
+</head>
+<body style="padding-left: 30px; padding-right: 30px; background-color: rgb(211, 211, 211);">
+    <button style="width:150px" class="popupButton" id="redirect" title="After logging in click this button again">Go to College Site</button>
+    <button class="popupButton" id ='scrapeButton' title="Click to calculate how much classes you have to attend" >Calculate</button>
+</body>
+<script src="popup.js"></script>
+<script src="background.js"></script>
+</html>
